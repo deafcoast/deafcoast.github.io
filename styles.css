@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+}
+
+.about-us, .highlight-trips, .testimonials {
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #0044cc;
+}
+
+.trip, .staff-member, .member {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 1em;
+    text-align: center;
+}
