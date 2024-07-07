@@ -5,48 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeafCoast - Home</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="deafcoast.js"></script>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="DeafCoast Logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="members.html">Members</a></li>
-                <li><a href="trips.html">Trips</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <div class="hero">
-            <h1>Welcome to DeafCoast</h1>
-            <p>Discover the underwater world with our expert deaf instructors and divemasters.</p>
-        </div>
-        <div class="about-us">
-            <h2>About Us</h2>
-            <p>DeafCoast is a group of passionate scuba instructors, divemasters, and avid divers focused on creating an inclusive diving community.</p>
-        </div>
-        <div class="highlight-trips">
-            <h2>Highlight Trips</h2>
-            <div class="trip">
-                <img src="trip1.jpg" alt="Trip to Bonaire">
-                <p>Bonaire Diving Adventure</p>
-            </div>
-            <!-- Add more trips here -->
-        </div>
-        <div class="testimonials">
-            <h2>Testimonials</h2>
-            <p>"The best diving experience ever!" - Diver A</p>
-            <!-- Add more testimonials here -->
-        </div>
+  <main>
+    <section id="heading" class="centerbox">
+      <h1>Deaf Coast Divers</h1>
+      <h2>Where Diving is SERIOUS Business</h2>
+      <p>
+        Like, totally serious. If you're not spending 30 minutes staring at
+        an octopus one dive and charging on your Scuba Buddy like a mount at
+        a Lionfish with a spear the next, you're doing it wrong! You dive
+        with a family, and have fun as a family!
+        <br/><br/>
+        FYI: We mostly maintain this website to help with inviting new
+        not-yet-diving friends along =).
+      </p>
     </section>
-
-    <footer>
-        <p>Contact us: info@deafcoast.com</p>
-        <p>Follow us on social media</p>
-        <!-- Add social media links here -->
-    </footer>
+    <section id="about" class="centerbox orangebox">
+      <h2>
+        About Us
+      </h2>
+      <p style="display: block;">
+        We are a Found Family at DeafCoast. We are friends - no customers here!
+        We aren't structured, we're not a Dive Shop, just a group of
+        like-minded friends. While we do have instructors and DiveMasters in
+        our group, they work under the auspices of dive shops (not DeafCoast).
+        We don't schedule classes or charge for coordinating entire trips -
+        we're not in it for the money! As friends, any one of us may pitch and
+        run the trips we join them on!
+        <br/><br/>
+        Why "DeafCoast" ? - In general, about half of us on any trip are
+        deaf! Some (But not all!) of the others can sign or are interested in
+        learning sign. We aim to be all inclusive - any and all abilities or
+        disabilities.
+      </p>
+      <h2>
+        Safety
+      </h2>
+      <p>
+        Safety is best considered as the leader of every team. Follow Safety,
+        and have fun otherwise!
+        <ol>
+          <li>Safety of the divers - Yourself, buddies, and others.</li>
+          <li>Safety in communication - In and out of water.</li>
+          <li>Safety of the environment - Coral, reefs, and native animals.</li>
+          <li>Safety of the stomach - kill and eat invasive species.</li>
+        </ol>
+      </p>
+      <h2>
+        Our Family
+      </h2>
+      <div id="members" class="carousel">
+        <div class="carousel-item">
+          <h3>Instructor and Founder Rob Drake</h3>
+          <img src="photos/rob-lionfish.jpg">
+        </div>
+      </div>
+    </section>
+    <section id="trips" class="centerbox orangebox">
+      <h2>
+        Past Trip Highlights
+      </h2>
+      <div id="trips-past" class="carousel">
+        <div class="carousel-item">
+          <h3>2021 Bonaire Group</h3>
+          <img src="photos/2021-bonaire-group.jpg">
+        </div>
+      </div>
+      <h2>
+        Upcoming Trips
+      </h2>
+      <div id="trips-upcoming" class="carousel">
+        <div class="carousel-item">
+          <h3>2021 Bonaire Group</h3>
+          <img src="photos/2021-bonaire-group.jpg">
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="centerbox" style="justify-content: left; align-items; left;">
+      <div>
+        Contact:
+        <a href="email:deafcoast@gmail.com"><span>deafcoast@gmail.com</span></a>
+      </div>
+    </section>
+  </main>
+  <script type="text/javascript">getStarted();</script>
 </body>
 </html>

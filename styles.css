@@ -1,62 +1,104 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  background: url('diving-serious.webp');
+  background-position: 0 0 0 0 absolute;
+  background-repeat: none;
+  background-size: 100vw; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #eee;
 }
 
 header {
-    background-color: #0044cc;
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 1em 0;
     text-align: center;
 }
 
-header img {
-    width: 150px;
+section#heading h1 {
+  font-size: 300%;
+  color: orange;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+section#heading h2 {
+  font-size: 200%;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1em;
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .5);
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+main section {
+  flex: 1 1 auto;
+  margin-top: 2em;
 }
 
-.hero {
-    background: url('hero.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    padding: 5em 0;
-    text-align: center;
+main section#contact {
+  padding-top: 1em;
 }
 
-.about-us, .highlight-trips, .testimonials {
-    padding: 2em;
-    text-align: center;
+main section#contact span {
+  color: #aaf;
+}
+
+main section.centerbox {
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  min-width: 20em;
+  max-width: 42em;
+  left: 10vw;
+  padding: 1em;
+  padding-top: 0.2em;
+}
+
+main section.orangebox {
+  border: 3px solid orange;
+}
+
+div.carousel {
+  display: flex;
+  flex-flow: row;
+  position: static;
+  overflow-x: hidden;
+  width: 100%;
+  max-height: 30em;
+}
+
+div.carousel div.carousel-item {
+  height: 100%;
+  position: relative;
+}
+
+div.carousel div.carousel-item img {
+  max-width: 100%;
 }
 
 h2 {
-    color: #0044cc;
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  width: 100%;
+  font-size: 110%;
+  font-weight: bold;
+  color: orange;
 }
 
-.trip, .staff-member, .member {
-    display: inline-block;
-    margin: 1em;
-    text-align: center;
+div.carousel h3 {
+  font-size: 90%;
 }
 
-footer {
-    background-color: #f1f1f1;
-    padding: 1em;
-    text-align: center;
+main section.carousel p {
+  margin-left: 5em;
+}
+
+main section.carousel div.clicky {
+  display: inline-block;
 }
